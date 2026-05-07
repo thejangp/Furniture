@@ -1,0 +1,611 @@
+{
+    "door_styles": [
+        {
+            "name": "SHAKER BLANC",
+            "code": "SW",
+            "material": "MDF",
+            "finish": "Painted Peinte",
+            "image": "door_sw.png"
+        },
+        {
+            "name": "DOUBLE SHAKER BLANC",
+            "code": "DSW",
+            "material": "MDF & Solid Wood",
+            "finish": "Painted Peinte",
+            "image": "door_dsw.png"
+        },
+        {
+            "name": "GRIS P\u00c2LE ILLUSTR\u00c9",
+            "code": "HGLG",
+            "material": "MDF",
+            "finish": "PET",
+            "image": "door_hglg.png"
+        },
+        {
+            "name": "MATE GRIS",
+            "code": "MG",
+            "material": "MDF",
+            "finish": "PET",
+            "image": "door_mg.png"
+        },
+        {
+            "name": "SHAKER GRIS",
+            "code": "GR",
+            "material": "MDF",
+            "finish": "Painted Peinte",
+            "image": "door_gr.png"
+        },
+        {
+            "name": "DOUBLE SHAKER BLEU",
+            "code": "BL",
+            "material": "MDF & Solid Wood",
+            "finish": "Painted Peinte",
+            "image": "door_bl.png"
+        },
+        {
+            "name": "BOIS GRIS",
+            "code": "WG",
+            "material": "MDF",
+            "finish": "Melamine M\u00e9lamin\u00e9e",
+            "image": "door_wg.png"
+        },
+        {
+            "name": "MATE BLANC",
+            "code": "MW",
+            "material": "MDF",
+            "finish": "PET",
+            "image": "door_mw.png"
+        },
+        {
+            "name": "GRIS ILLUSTR\u00c9",
+            "code": "HGG",
+            "material": "MDF",
+            "finish": "PET",
+            "image": "door_hgg.png"
+        },
+        {
+            "name": "CH\u00caNE BLANC",
+            "code": "WO",
+            "material": "MDF",
+            "finish": "Melamine M\u00e9lamin\u00e9e",
+            "image": "door_wo.png"
+        },
+        {
+            "name": "BLANC ILLUSTR\u00c9",
+            "code": "HGW",
+            "material": "MDF",
+            "finish": "PET",
+            "image": "door_hgw.png"
+        },
+        {
+            "name": "BOIS NATUREL",
+            "code": "NW",
+            "material": "MDF",
+            "finish": "Melamine M\u00e9lamin\u00e9e",
+            "image": "door_nw.png"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Base Cabinets",
+            "products": [
+                {
+                    "name": "ONE DOOR - ONE DRAWER",
+                    "image": "base_cabinet_1.png",
+                    "codes": [
+                        "B12",
+                        "B15",
+                        "B18",
+                        "B21"
+                    ]
+                },
+                {
+                    "name": "TWO DOORS - ONE DRAWER",
+                    "image": "base_cabinet_2.png",
+                    "codes": [
+                        "B24",
+                        "B27",
+                        "B30",
+                        "B33",
+                        "B36"
+                    ]
+                },
+                {
+                    "name": "TWO DOORS - TWO DRAWERS",
+                    "image": "base_cabinet_3.png",
+                    "codes": [
+                        "B42"
+                    ]
+                },
+                {
+                    "name": "FULL DOOR - ONE DOOR",
+                    "image": "base_cabinet_4.png",
+                    "codes": [
+                        "BFH06",
+                        "BFH09",
+                        "BFH12",
+                        "BFH15",
+                        "BFH18",
+                        "BFH21",
+                        "BFH24S"
+                    ]
+                },
+                {
+                    "name": "FULL DOOR - TWO DOORS",
+                    "image": "base_cabinet_5.png",
+                    "codes": [
+                        "BFH24",
+                        "BFH27",
+                        "BFH30",
+                        "BFH33",
+                        "BFH36"
+                    ]
+                },
+                {
+                    "name": "TWO DRAWERS",
+                    "image": "base_cabinet_6.png",
+                    "codes": [
+                        "2DB24",
+                        "2DB27",
+                        "2DB30",
+                        "2DB36"
+                    ]
+                },
+                {
+                    "name": "THREE DRAWERS",
+                    "image": "base_cabinet_7.png",
+                    "codes": [
+                        "3DB12",
+                        "3DB15",
+                        "3DB18",
+                        "3DB21",
+                        "3DB24",
+                        "3DB27",
+                        "3DB30",
+                        "3DB33",
+                        "3DB36"
+                    ]
+                },
+                {
+                    "name": "CORNER SINK BASE",
+                    "image": "base_cabinet_8.png",
+                    "codes": [
+                        "CSB36"
+                    ]
+                },
+                {
+                    "name": "TWO DOORS SINK BASE",
+                    "image": "base_cabinet_9.png",
+                    "codes": [
+                        "SB24",
+                        "SB27",
+                        "SB30",
+                        "SB33",
+                        "SB36",
+                        "SB42"
+                    ]
+                },
+                {
+                    "name": "TWO DOORS SINK BASE",
+                    "image": "base_cabinet_10.png",
+                    "codes": [
+                        "SB30",
+                        "SB33",
+                        "SB36",
+                        "SB42"
+                    ]
+                },
+                {
+                    "name": "ONE SHELF",
+                    "image": "base_cabinet_11.png",
+                    "codes": [
+                        "ERB33",
+                        "ERB36"
+                    ]
+                },
+                {
+                    "name": "BLIND, PANEL & DOOR",
+                    "image": "base_cabinet_13.png",
+                    "codes": [
+                        "BBC36",
+                        "BBC39",
+                        "BBC45"
+                    ]
+                },
+                {
+                    "name": "MICROWAVE BASE ONE DRAWER",
+                    "image": "base_cabinet_14.png",
+                    "codes": [
+                        "MB30"
+                    ]
+                },
+                {
+                    "name": "MICROWAVE WALL PANEL",
+                    "image": "base_cabinet_15.png",
+                    "codes": [
+                        "M24-PNL",
+                        "M30-PNL"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tall Pantries",
+            "products": [
+                {
+                    "name": "18 WIDTH PANTRY ",
+                    "image": "tall_cabinet_1.png",
+                    "codes": [
+                        "U188418",
+                        "U188421",
+                        "U188424",
+                        "U189015",
+                        "U189018",
+                        "U189024",
+                        "U189615",
+                        "U189618",
+                        "U189624"
+                    ]
+                },
+                {
+                    "name": "24 WIDTH PANTRY",
+                    "image": "tall_cabinet_2.png",
+                    "codes": [
+                        "U248424",
+                        "U249024",
+                        "U249624",
+                        "U248424F",
+                        "U249024F",
+                        "U249624F"
+                    ]
+                },
+                {
+                    "name": "30 WIDTH PANTRY",
+                    "image": "tall_cabinet_3.png",
+                    "codes": [
+                        "U308415",
+                        "U308418",
+                        "U308424",
+                        "U309015",
+                        "U309018",
+                        "U309024",
+                        "U309615",
+                        "U309618",
+                        "U309624"
+                    ]
+                },
+                {
+                    "name": "SINGLE OVEN",
+                    "image": "tall_cabinet_4.png",
+                    "codes": [
+                        "O308424",
+                        "O309024",
+                        "O309624"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wall Cabinets",
+            "products": [
+                {
+                    "name": "12 HEIGHT WALL CABINET - ONE DOOR",
+                    "image": "wall_cabinet_1.png",
+                    "codes": [
+                        "W1212",
+                        "W1512",
+                        "W1812",
+                        "W2112"
+                    ]
+                },
+                {
+                    "name": "12 HEIGHT WALL CABINET - TWO DOOR",
+                    "image": "wall_cabinet_2.png",
+                    "codes": [
+                        "W2412",
+                        "W2712",
+                        "W3012",
+                        "W3312",
+                        "W3612"
+                    ]
+                },
+                {
+                    "name": "15 HEIGHT WALL CABINET - TWO DOORS",
+                    "image": "wall_cabinet_3.png",
+                    "codes": [
+                        "W3015",
+                        "W3315",
+                        "W3615"
+                    ]
+                },
+                {
+                    "name": "18 HEIGHT WALL CABINET - TWO DOORS",
+                    "image": "wall_cabinet_4.png",
+                    "codes": [
+                        "W2418",
+                        "W3018",
+                        "W3318",
+                        "W3618"
+                    ]
+                },
+                {
+                    "name": "24 HEIGHT TWO DOORS - ONE SHELF",
+                    "image": "wall_cabinet_5.png",
+                    "codes": [
+                        "W2424",
+                        "W3024",
+                        "W3324",
+                        "W3624"
+                    ]
+                },
+                {
+                    "name": "30 HEIGHT ONE DOOR - TWO SHELVES",
+                    "image": "wall_cabinet_6.png",
+                    "codes": [
+                        "W0930",
+                        "W1230",
+                        "W1530",
+                        "W1830",
+                        "W2130",
+                        "W2430S"
+                    ]
+                },
+                {
+                    "name": "30 HEIGHT TWO DOORS - TWO SHELVES",
+                    "image": "wall_cabinet_7.png",
+                    "codes": [
+                        "W2430",
+                        "W2730",
+                        "W3030",
+                        "W3330",
+                        "W3630"
+                    ]
+                },
+                {
+                    "name": "36 HEIGHT ONE DOOR - TWO SHELVES",
+                    "image": "wall_cabinet_8.png",
+                    "codes": [
+                        "W0936",
+                        "W1236",
+                        "W1536",
+                        "W1836",
+                        "W2136"
+                    ]
+                },
+                {
+                    "name": "36 HEIGHT TWO DOORS - TWO SHELVES",
+                    "image": "wall_cabinet_9.png",
+                    "codes": [
+                        "W2436",
+                        "W2736",
+                        "W3036",
+                        "W3336",
+                        "W3636"
+                    ]
+                },
+                {
+                    "name": "42 HEIGHT ONE DOOR - THREE SHELVES",
+                    "image": "wall_cabinet_10.png",
+                    "codes": [
+                        "W0942",
+                        "W1242",
+                        "W1542",
+                        "W1842",
+                        "W2142"
+                    ]
+                },
+                {
+                    "name": "42 HEIGHT TWO DOORS - THREE SHELVES",
+                    "image": "wall_cabinet_11.png",
+                    "codes": [
+                        "W2442",
+                        "W2742",
+                        "W3042",
+                        "W3342",
+                        "W3642"
+                    ]
+                },
+                {
+                    "name": "REFRIGERATOR CABINETS  30 WIDTH TWO DOORS",
+                    "image": "wall_cabinet_12.png",
+                    "codes": [
+                        "W301224",
+                        "W301524",
+                        "W301824",
+                        "W302424"
+                    ]
+                },
+                {
+                    "name": "REFRIGERATOR CABINETS 33 WIDTH TWO DOORS",
+                    "image": "wall_cabinet_13.png",
+                    "codes": [
+                        "W331224",
+                        "W331524",
+                        "W331824",
+                        "W332424"
+                    ]
+                },
+                {
+                    "name": "REFRIGERATOR CABINETS  36 WIDTH TWO DOORS",
+                    "image": "wall_cabinet_14.png",
+                    "codes": [
+                        "W361224",
+                        "W361524",
+                        "W361824",
+                        "W362424"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) ONE DOOR",
+                    "image": "wall_cabinet_15.png",
+                    "codes": [
+                        "W1212GD",
+                        "W1512GD",
+                        "W1530GD",
+                        "W1812GD",
+                        "W2112GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) ONE DOOR - TWO SHELVES",
+                    "image": "wall_cabinet_16.png",
+                    "codes": [
+                        "W1530GD",
+                        "W1536GD",
+                        "W1830GD",
+                        "W1836GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) ONE DOOR - THREE SHELVES",
+                    "image": "wall_cabinet_17.png",
+                    "codes": [
+                        "W1542GD",
+                        "W1842GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) 12 HEIGHT TWO DOORS",
+                    "image": "wall_cabinet_18.png",
+                    "codes": [
+                        "W2412GD",
+                        "W2712GD",
+                        "W3012GD",
+                        "W3312GD",
+                        "W3612GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) 18 HEIGHT TWO DOORS",
+                    "image": "wall_cabinet_19.png",
+                    "codes": [
+                        "W3018GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) 30 HEIGHT TWO DOORS - TWO SHELVES",
+                    "image": "wall_cabinet_20.png",
+                    "codes": [
+                        "W2430GD",
+                        "W3030GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) 36 HEIGHT TWO DOORS - TWO SHELVES",
+                    "image": "wall_cabinet_21.png",
+                    "codes": [
+                        "W2436GD",
+                        "W2442GD",
+                        "W3036GD"
+                    ]
+                },
+                {
+                    "name": "(GLASS DOOR) 42 HEIGHT TWO DOORS - THREE SHELVES",
+                    "image": "wall_cabinet_22.png",
+                    "codes": [
+                        "W2442GD",
+                        "W3042GD"
+                    ]
+                },
+                {
+                    "name": "BLIND CORNER",
+                    "image": "wall_cabinet_23.png",
+                    "codes": [
+                        "WBC2730",
+                        "WBC2736",
+                        "WBC2742",
+                        "WBC3030",
+                        "WBC3036",
+                        "WBC3042"
+                    ]
+                },
+                {
+                    "name": "DIAGONAL CORNER",
+                    "image": "wall_cabinet_24.png",
+                    "codes": [
+                        "DCW2430",
+                        "DCW2436",
+                        "DCW2442"
+                    ]
+                },
+                {
+                    "name": "DIAGONAL CORNER GLASS DOOR",
+                    "image": "wall_cabinet_25.png",
+                    "codes": [
+                        "DCW2412GD",
+                        "DCW2430GD",
+                        "DCW2436GD",
+                        "DCW2442GD"
+                    ]
+                },
+                {
+                    "name": "WALL EASY REACH CORNER",
+                    "image": "wall_cabinet_26.png",
+                    "codes": [
+                        "WER2430",
+                        "WER2436",
+                        "WER2442"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vanities",
+            "products": [
+                {
+                    "name": "VANITY SINK DRAWER BASE",
+                    "image": "vanity_cabinet_1.png",
+                    "codes": [
+                        "VSD42",
+                        "VSD48"
+                    ]
+                },
+                {
+                    "name": "VANITY SINK DRAWER BASE DRAWER COMBO - TWO DRAWERS",
+                    "image": "vanity_cabinet_2.png",
+                    "codes": [
+                        "V3021TDL/R*",
+                        "V3621TDL/R*",
+                        "V4821TDL/R*"
+                    ]
+                },
+                {
+                    "name": "VANITY SINK DRAWER BASE DRAWER COMBO - THREE DRAWERS",
+                    "image": "vanity_cabinet_3.png",
+                    "codes": [
+                        "V3621DL/R*",
+                        "V4221DL/R*"
+                    ]
+                },
+                {
+                    "name": "VANITY SINK BASE",
+                    "image": "vanity_cabinet_4.png",
+                    "codes": [
+                        "VS24",
+                        "VS27",
+                        "VS30",
+                        "VS33",
+                        "VS36"
+                    ]
+                },
+                {
+                    "name": "VANITY DRAWER BASE",
+                    "image": "vanity_cabinet_5.png",
+                    "codes": [
+                        "3VDB12",
+                        "3VDB15",
+                        "3VDB18"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Closets",
+            "products": []
+        },
+        {
+            "name": "Accessories",
+            "products": []
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 <?= view('templates/header') ?>
 
 <section class="hero slide-up-anim">
-    <div class="hero-image" style="background-image: url('/images/WhatsApp Image 2026-04-29 at 20.07.52 (1).jpeg');">
+    <div class="hero-image" style="background-image: url('/images/hero.png');">
         <div class="hero-overlay">
             <div class="hero-content">
                 <h1>Premium Stones & Cabinets</h1>
@@ -10,6 +10,32 @@
                     <a href="/products" class="btn btn-primary">Shop Now</a>
                     <a href="/gallery" class="btn btn-outline">Explore Gallery</a>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-us section scroll-anim" style="background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%); color: #fff; position: relative; overflow: hidden;">
+    <!-- Decorative background elements -->
+    <div style="position: absolute; top: -50%; left: -10%; width: 50%; height: 200%; background: radial-gradient(circle, rgba(197,160,89,0.05) 0%, rgba(0,0,0,0) 70%); transform: rotate(30deg); pointer-events: none;"></div>
+    <div style="position: absolute; bottom: -50%; right: -10%; width: 50%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0) 70%); transform: rotate(-30deg); pointer-events: none;"></div>
+    <div class="container">
+        <div class="section-heading text-center mb-5">
+            <h2>Why Choose Us</h2>
+            <p>We bring your dream spaces to life with unmatched quality and service.</p>
+        </div>
+        <div class="grid grid-3 text-center" style="position: relative; z-index: 1;">
+            <div class="feature-box" style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                <h3 style="color: var(--accent-gold); margin-bottom: 10px;">Premium Materials</h3>
+                <p>From high-grade MDF and PET to stunning Quartz slabs, we source only the finest materials for durability and elegance.</p>
+            </div>
+            <div class="feature-box" style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                <h3 style="color: var(--accent-gold); margin-bottom: 10px;">Expert Craftsmanship</h3>
+                <p>Our cabinets are meticulously crafted to ensure flawless finishes, smooth operation, and long-lasting beauty.</p>
+            </div>
+            <div class="feature-box" style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(10px);">
+                <h3 style="color: var(--accent-gold); margin-bottom: 10px;">Custom & Affordable</h3>
+                <p>We offer tailored layouts and affordable packages, like our Série Essentielle, to fit your exact needs and budget.</p>
             </div>
         </div>
     </div>
@@ -24,7 +50,7 @@
         <div class="grid grid-3">
             <div class="product-card">
                 <div class="product-img-wrapper">
-                    <img src="/images/WhatsApp Image 2026-04-29 at 20.07.52 (2).jpeg" alt="Kitchen Cabinets" class="product-image">
+                    <img src="/images/featured_kitchen.png" alt="Kitchen Cabinets" class="product-image">
                     <a href="/products/kitchen-cabinets" class="quick-view">View Details</a>
                 </div>
                 <div class="product-info">
@@ -34,7 +60,7 @@
             </div>
             <div class="product-card">
                 <div class="product-img-wrapper">
-                    <img src="/images/WhatsApp Image 2026-04-29 at 20.07.52 (3).jpeg" alt="Quartz Stone" class="product-image">
+                    <img src="/images/featured_quartz.png" alt="Quartz Stone" class="product-image">
                     <a href="/products/quartz-stones" class="quick-view">View Details</a>
                 </div>
                 <div class="product-info">
@@ -44,12 +70,12 @@
             </div>
             <div class="product-card">
                 <div class="product-img-wrapper">
-                    <img src="/images/WhatsApp Image 2026-04-29 at 20.07.52 (4).jpeg" alt="Bathroom Vanity" class="product-image">
-                    <a href="/products/bathroom-cabinets" class="quick-view">View Details</a>
+                    <img src="/images/featured_kitchen_2.png" alt="Modern Kitchen Cabinets" class="product-image">
+                    <a href="/products/kitchen-cabinets" class="quick-view">View Details</a>
                 </div>
                 <div class="product-info">
-                    <h3>Modern Bathroom Vanity</h3>
-                    <p class="price">From $850</p>
+                    <h3>Modern Kitchen Cabinets</h3>
+                    <p class="price">From $1,500</p>
                 </div>
             </div>
         </div>

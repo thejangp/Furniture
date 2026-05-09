@@ -29,6 +29,17 @@ class Pages extends BaseController
         return view('pages/contact');
     }
 
+    public function doorStyles()
+    {
+        $jsonPath = FCPATH . 'data/products.json';
+        $data = [];
+        if (file_exists($jsonPath)) {
+            $data = json_decode(file_get_contents($jsonPath), true);
+        }
+        
+        return view('pages/door_styles', ['productsData' => $data]);
+    }
+
     public function kitchenCabinets()
     {
         $jsonPath = FCPATH . 'data/products.json';

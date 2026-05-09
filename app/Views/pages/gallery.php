@@ -16,16 +16,16 @@
             <div class="masonry-overlay">Modern Living</div>
         </div>
         <div class="masonry-item">
-            <img src="/images/dining.png" alt="Dining Room">
-            <div class="masonry-overlay">Luxurious Dining</div>
+            <img src="/images/WhatsApp Image 2026-04-29 at 20.07.52 (2).jpeg" alt="Kitchen Project">
+            <div class="masonry-overlay">Classic Kitchen Project</div>
         </div>
         <div class="masonry-item">
-            <img src="/images/sofa.png" alt="Living Room Sofa">
-            <div class="masonry-overlay">Minimalist Comfort</div>
+            <img src="/images/WhatsApp Image 2026-04-29 at 20.07.52 (3).jpeg" alt="Quartz Slab">
+            <div class="masonry-overlay">Premium Quartz</div>
         </div>
         <div class="masonry-item">
-            <img src="/images/bed.png" alt="Bedroom Interior">
-            <div class="masonry-overlay">Serene Bedroom</div>
+            <img src="/images/WhatsApp Image 2026-04-29 at 20.07.52 (4).jpeg" alt="Bathroom Vanity">
+            <div class="masonry-overlay">Modern Vanity</div>
         </div>
     </div>
 </section>

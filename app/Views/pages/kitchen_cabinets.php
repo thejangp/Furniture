@@ -11,33 +11,6 @@
         </div>
     </section>
 
-    <!-- Door Styles Section -->
-    <section class="door-styles-section">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="premium-title">Available Finishes</h2>
-                <p class="section-subtitle">Choose from our diverse range of door styles and finishes to define your kitchen's character.</p>
-            </div>
-            <div class="door-grid">
-                <?php if (!empty($productsData['door_styles'])): ?>
-                    <?php foreach ($productsData['door_styles'] as $style): ?>
-                        <div class="door-card">
-                            <div class="door-image">
-                                <!-- Since we don't have all door images yet, we can use a placeholder or handle missing files -->
-                                <img src="/images/products/door_<?= strtolower($style['code']) ?>.png" alt="<?= $style['name'] ?>" onerror="this.src='/images/placeholder_door.png'">
-                            </div>
-                            <div class="door-info">
-                                <h3><?= $style['name'] ?></h3>
-                                <p class="style-code">Code: <?= $style['code'] ?></p>
-                                <p class="style-detail"><?= $style['material'] ?> | <?= $style['finish'] ?></p>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                <?php endif; ?>
-            </div>
-        </div>
-    </section>
-
     <!-- Product Catalog Section -->
     <section class="product-catalog">
         <div class="container">

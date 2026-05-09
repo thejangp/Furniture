@@ -21,6 +21,7 @@
                 <li class="dropdown">
                     <a href="/products">Products <span class="caret">▼</span></a>
                     <ul class="dropdown-menu">
+                        <li><a href="/products/door-styles">Door Styles</a></li>
                         <li><a href="/products/kitchen-cabinets">Kitchen Cabinets</a></li>
                         <li><a href="/products/bathroom-cabinets">Bathroom Cabinets</a></li>
                         <li><a href="/products/bathroom-essentials">Bathroom Essentials</a></li>

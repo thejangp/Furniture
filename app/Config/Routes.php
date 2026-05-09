@@ -7,6 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Pages::index');
 $routes->get('products', 'Pages::products');
+$routes->get('products/door-styles', 'Pages::doorStyles');
 $routes->get('products/kitchen-cabinets', 'Pages::kitchenCabinets');
 $routes->get('products/(:any)', 'Pages::comingSoon');
 $routes->get('specials', 'Pages::comingSoon');

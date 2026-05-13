@@ -1,84 +1,84 @@
 {
     "door_styles": [
         {
-            "name": "SHAKER BLANC",
+            "name": "Shaker White",
             "code": "SW",
             "material": "MDF",
             "finish": "Painted Peinte",
             "image": "door_sw.png"
         },
         {
-            "name": "DOUBLE SHAKER BLANC",
+            "name": "Double Shaker White",
             "code": "DSW",
             "material": "MDF & Solid Wood",
             "finish": "Painted Peinte",
             "image": "door_dsw.png"
         },
         {
-            "name": "GRIS P\u00c2LE ILLUSTR\u00c9",
-            "code": "HGLG",
+            "name": "High Gloss Light Grey",
+            "code": "HSLG",
             "material": "MDF",
             "finish": "PET",
-            "image": "door_hglg.png"
+            "image": "door_hslg.png"
         },
         {
-            "name": "MATE GRIS",
+            "name": "Matte Grey",
             "code": "MG",
             "material": "MDF",
             "finish": "PET",
             "image": "door_mg.png"
         },
         {
-            "name": "SHAKER GRIS",
+            "name": "Shaker Grey",
             "code": "GR",
             "material": "MDF",
             "finish": "Painted Peinte",
             "image": "door_gr.png"
         },
         {
-            "name": "DOUBLE SHAKER BLEU",
+            "name": "Double Shaker Blue",
             "code": "BL",
             "material": "MDF & Solid Wood",
             "finish": "Painted Peinte",
             "image": "door_bl.png"
         },
         {
-            "name": "BOIS GRIS",
+            "name": "Wood Grey",
             "code": "WG",
             "material": "MDF",
-            "finish": "Melamine M\u00e9lamin\u00e9e",
+            "finish": "Melamine Mélaminée",
             "image": "door_wg.png"
         },
         {
-            "name": "MATE BLANC",
+            "name": "Matte White",
             "code": "MW",
             "material": "MDF",
             "finish": "PET",
             "image": "door_mw.png"
         },
         {
-            "name": "GRIS ILLUSTR\u00c9",
-            "code": "HGG",
+            "name": "High Gloss Grey",
+            "code": "HSG",
             "material": "MDF",
             "finish": "PET",
-            "image": "door_hgg.png"
+            "image": "door_hsg.png"
         },
         {
-            "name": "CH\u00caNE BLANC",
+            "name": "White Oak",
             "code": "WO",
             "material": "MDF",
-            "finish": "Melamine M\u00e9lamin\u00e9e",
+            "finish": "Melamine Mélaminée",
             "image": "door_wo.png"
         },
         {
-            "name": "BLANC ILLUSTR\u00c9",
-            "code": "HGW",
+            "name": "High Gloss White",
+            "code": "HSW",
             "material": "MDF",
             "finish": "PET",
-            "image": "door_hgw.png"
+            "image": "door_hsw.png"
         },
         {
-            "name": "BOIS NATUREL",
+            "name": "Natural Wood",
             "code": "NW",
             "material": "MDF",
             "finish": "Melamine Mélaminée",
@@ -197,14 +197,14 @@
             "image": "door_mso.png"
         },
         {
-            "name": "Blanc veiné",
+            "name": "Veined White",
             "code": "BV",
             "material": "MDF",
             "finish": "PET",
             "image": "door_bv.png"
         },
         {
-            "name": "Chêne Fumé",
+            "name": "Fumed Oak",
             "code": "CF",
             "material": "MDF",
             "finish": "Melamine Mélaminée",

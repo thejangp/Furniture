@@ -110,8 +110,14 @@
 
     .door-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 30px;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 20px;
+    }
+
+    @media (min-width: 1200px) {
+        .door-grid {
+            grid-template-columns: repeat(6, 1fr);
+        }
     }
 
     .door-card {
@@ -121,6 +127,8 @@
         transition: all 0.3s ease;
         border: 1px solid var(--border-color);
         text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .door-card:hover {
@@ -130,7 +138,7 @@
     }
 
     .door-image {
-        height: 350px;
+        height: 240px;
         overflow: hidden;
         background: #fdfdfd;
     }
@@ -147,7 +155,11 @@
     }
 
     .door-info {
-        padding: 25px;
+        padding: 15px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .style-code {
@@ -162,18 +174,19 @@
 
     .door-info h3 {
         font-family: 'Playfair Display', serif;
-        font-size: 1.3rem;
-        margin-bottom: 12px;
+        font-size: 1.1rem;
+        margin-bottom: 8px;
         color: var(--primary-dark);
+        line-height: 1.2;
     }
 
     .style-meta {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
         color: var(--text-gray);
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 8px;
+        gap: 5px;
     }
 
     .meta-separator {

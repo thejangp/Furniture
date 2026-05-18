@@ -14,26 +14,38 @@
     <!-- Color Gallery Section -->
     <section class="color-gallery-section">
         <div class="container">
-            <div class="door-grid">
-                <?php if (!empty($productsData['door_styles'])): ?>
-                    <?php foreach ($productsData['door_styles'] as $style): ?>
-                        <div class="door-card">
-                            <div class="door-image">
-                                <img src="/images/products/door_<?= strtolower($style['code']) ?>.png" alt="<?= $style['name'] ?>" onerror="this.src='/images/placeholder_door.png'">
-                            </div>
-                            <div class="door-info">
-                                <span class="style-code"><?= $style['code'] ?></span>
-                                <h3><?= $style['name'] ?></h3>
-                                <div class="style-meta">
-                                    <span class="meta-tag"><?= $style['material'] ?></span>
-                                    <span class="meta-separator">•</span>
-                                    <span class="meta-tag"><?= $style['finish'] ?></span>
+            <?php 
+            $groupedStyles = [];
+            if (!empty($productsData['door_styles'])) {
+                foreach ($productsData['door_styles'] as $style) {
+                    $category = $style['category'] ?? 'OTHER';
+                    $groupedStyles[$category][] = $style;
+                }
+            }
+            ?>
+
+            <?php foreach ($groupedStyles as $categoryName => $styles): ?>
+                <div class="category-group">
+                    <h2 class="category-title"><?= $categoryName ?></h2>
+                    <div class="door-grid">
+                        <?php foreach ($styles as $style): ?>
+                            <div class="door-card">
+                                <div class="door-image">
+                                    <img src="/images/products/door_<?= strtolower($style['code']) ?>.png" alt="<?= $style['name'] ?>" onerror="this.src='/images/placeholder_door.png'">
+                                </div>
+                                <div class="door-info">
+                                    <h3><?= $style['name'] ?></h3>
+                                    <div class="style-details">
+                                        <div class="detail-row"><strong>Style Code:</strong> <?= $style['code'] ?></div>
+                                        <div class="detail-row"><strong>Material:</strong> <?= $style['material'] ?></div>
+                                        <div class="detail-row"><strong>Finish:</strong> <?= $style['finish'] ?></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php endforeach; ?>
-                <?php endif; ?>
-            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
     </section>
 </main>
@@ -108,10 +120,36 @@
         padding: 80px 0 120px;
     }
 
+    .category-group {
+        margin-bottom: 80px;
+    }
+
+    .category-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.8rem;
+        margin-bottom: 50px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+        color: var(--primary-dark);
+        letter-spacing: 1px;
+    }
+
+    .category-title::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: var(--accent-gold);
+    }
+
     .door-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 20px;
+        gap: 25px;
     }
 
     @media (min-width: 1200px) {
@@ -122,75 +160,72 @@
 
     .door-card {
         background: #fff;
-        border-radius: 8px;
+        border-radius: 12px;
         overflow: hidden;
-        transition: all 0.3s ease;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
         border: 1px solid var(--border-color);
-        text-align: center;
+        text-align: left;
         display: flex;
         flex-direction: column;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.02);
     }
 
     .door-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.08);
         border-color: var(--accent-gold);
     }
 
     .door-image {
-        height: 240px;
+        height: 220px;
         overflow: hidden;
         background: #fdfdfd;
+        position: relative;
     }
 
     .door-image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 0.5s ease;
+        transition: transform 0.6s ease;
     }
 
     .door-card:hover .door-image img {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 
     .door-info {
-        padding: 15px;
+        padding: 20px;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .style-code {
-        display: block;
-        color: var(--accent-gold);
-        font-weight: 600;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 8px;
     }
 
     .door-info h3 {
         font-family: 'Playfair Display', serif;
-        font-size: 1.1rem;
-        margin-bottom: 8px;
+        font-size: 1.15rem;
+        margin-bottom: 12px;
         color: var(--primary-dark);
-        line-height: 1.2;
+        line-height: 1.3;
+        font-weight: 700;
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 10px;
     }
 
-    .style-meta {
-        font-size: 0.75rem;
+    .style-details {
+        font-size: 0.85rem;
         color: var(--text-gray);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
+        line-height: 1.8;
     }
 
-    .meta-separator {
-        color: var(--accent-gold);
+    .detail-row {
+        margin-bottom: 4px;
+    }
+
+    .detail-row strong {
+        color: var(--primary-dark);
+        font-weight: 600;
+        margin-right: 5px;
     }
 
     @keyframes fadeIn {
@@ -207,7 +242,10 @@
             font-size: 2.5rem;
         }
         .door-grid {
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        }
+        .category-title {
+            font-size: 2rem;
         }
     }
 </style>

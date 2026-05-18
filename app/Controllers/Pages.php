@@ -51,6 +51,11 @@ class Pages extends BaseController
         return view('pages/kitchen_cabinets', ['productsData' => $data]);
     }
 
+    public function specials()
+    {
+        return view('pages/specials');
+    }
+
     public function comingSoon()
     {
         return view('pages/coming_soon');

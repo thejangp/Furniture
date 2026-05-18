@@ -32,7 +32,7 @@
                         <li><a href="/products/accessories">Accessories</a></li>
                     </ul>
                 </li>
-                <li><a href="/specials">Specials</a></li>
+                <li><a href="/specials">Special Offers</a></li>
                 <li><a href="/gallery">Gallery</a></li>
                 <li><a href="/custom-build">Custom Build</a></li>
                 <li><a href="/about">About Us</a></li>

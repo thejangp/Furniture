@@ -10,7 +10,7 @@ $routes->get('products', 'Pages::products');
 $routes->get('products/door-styles', 'Pages::doorStyles');
 $routes->get('products/kitchen-cabinets', 'Pages::kitchenCabinets');
 $routes->get('products/(:any)', 'Pages::comingSoon');
-$routes->get('specials', 'Pages::comingSoon');
+$routes->get('specials', 'Pages::specials');
 $routes->get('custom-build', 'Pages::comingSoon');
 $routes->get('gallery', 'Pages::gallery');
 $routes->get('about', 'Pages::about');

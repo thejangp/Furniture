@@ -1,214 +1,132 @@
 {
     "door_styles": [
         {
+            "name": "Shaker Maple Caramel",
+            "code": "SMC",
+            "material": "MDF & Solid Wood Frame",
+            "finish": "Stained",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "SHAKER"
+        },
+        {
+            "name": "Shaker Grey",
+            "code": "GR",
+            "material": "MDF",
+            "finish": "Painted",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "SHAKER"
+        },
+        {
             "name": "Shaker White",
             "code": "SW",
             "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_sw.png"
+            "finish": "Painted",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "SHAKER"
+        },
+        {
+            "name": "Slim Shaker Green",
+            "code": "SSG",
+            "material": "MDF",
+            "finish": "Painted",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "SLIM SHAKER"
+        },
+        {
+            "name": "Slim Shaker White",
+            "code": "SSW",
+            "material": "MDF",
+            "finish": "Painted",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "SLIM SHAKER"
+        },
+        {
+            "name": "Slim Shaker Veneer",
+            "code": "SSV",
+            "material": "MDF & Solid Wood Frame",
+            "finish": "Veneer",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "SLIM SHAKER"
         },
         {
             "name": "Double Shaker White",
             "code": "DSW",
-            "material": "MDF & Solid Wood",
-            "finish": "Painted Peinte",
-            "image": "door_dsw.png"
+            "material": "MDF",
+            "finish": "Painted",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "DOUBLE SHAKER"
         },
         {
-            "name": "High Gloss Light Grey",
-            "code": "HSLG",
+            "name": "Double Shaker Blue",
+            "code": "BL",
             "material": "MDF",
-            "finish": "PET",
-            "image": "door_hslg.png"
+            "finish": "Painted",
+            "category": "SHAKER DOOR STYLES",
+            "sub_category": "DOUBLE SHAKER"
         },
         {
             "name": "Matte Grey",
             "code": "MG",
             "material": "MDF",
             "finish": "PET",
-            "image": "door_mg.png"
-        },
-        {
-            "name": "Shaker Grey",
-            "code": "GR",
-            "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_gr.png"
-        },
-        {
-            "name": "Double Shaker Blue",
-            "code": "BL",
-            "material": "MDF & Solid Wood",
-            "finish": "Painted Peinte",
-            "image": "door_bl.png"
-        },
-        {
-            "name": "Wood Grey",
-            "code": "WG",
-            "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_wg.png"
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "MATTE"
         },
         {
             "name": "Matte White",
             "code": "MW",
             "material": "MDF",
             "finish": "PET",
-            "image": "door_mw.png"
-        },
-        {
-            "name": "High Gloss Grey",
-            "code": "HSG",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_hsg.png"
-        },
-        {
-            "name": "White Oak",
-            "code": "WO",
-            "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_wo.png"
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "MATTE"
         },
         {
             "name": "High Gloss White",
-            "code": "HSW",
+            "code": "HGW",
             "material": "MDF",
             "finish": "PET",
-            "image": "door_hsw.png"
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "HIGH GLOSS"
+        },
+        {
+            "name": "High Gloss Grey",
+            "code": "HGG",
+            "material": "MDF",
+            "finish": "PET",
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "HIGH GLOSS"
+        },
+        {
+            "name": "High Gloss Light Grey",
+            "code": "HGLG",
+            "material": "MDF",
+            "finish": "PET",
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "HIGH GLOSS"
         },
         {
             "name": "Natural Wood",
             "code": "NW",
             "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_nw.png"
+            "finish": "Melamine",
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "WOOD"
         },
         {
-            "name": "Slim Shaker White",
-            "code": "SSW",
+            "name": "White Oak",
+            "code": "WO",
             "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_ssw.png"
+            "finish": "Melamine",
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "WOOD"
         },
         {
-            "name": "White Single Shaker",
-            "code": "WSS",
+            "name": "Wood Grey",
+            "code": "WG",
             "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_wss.png"
-        },
-        {
-            "name": "Gray Single Shaker",
-            "code": "GSS",
-            "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_gss.png"
-        },
-        {
-            "name": "Blue Single Shaker",
-            "code": "BSS",
-            "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_bss.png"
-        },
-        {
-            "name": "Matt Ash",
-            "code": "PMA",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pma.png"
-        },
-        {
-            "name": "Matt Black",
-            "code": "PMB",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pmb.png"
-        },
-        {
-            "name": "Matt Gray",
-            "code": "PMG",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pmg.png"
-        },
-        {
-            "name": "Matt White",
-            "code": "PMW",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pmw.png"
-        },
-        {
-            "name": "Glossy White",
-            "code": "PGW",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pgw.png"
-        },
-        {
-            "name": "Glossy Ash",
-            "code": "PGA",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pga.png"
-        },
-        {
-            "name": "Glossy Gray",
-            "code": "PGG",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_pgg.png"
-        },
-        {
-            "name": "Shaker Natural Wood",
-            "code": "KNW",
-            "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_knw.png"
-        },
-        {
-            "name": "Shaker Pure White",
-            "code": "SPW",
-            "material": "MDF",
-            "finish": "Painted Peinte",
-            "image": "door_spw.png"
-        },
-        {
-            "name": "Pure White",
-            "code": "MPW",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_mpw.png"
-        },
-        {
-            "name": "Natural Wood",
-            "code": "MNW",
-            "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_mnw.png"
-        },
-        {
-            "name": "Smoked Oak",
-            "code": "MSO",
-            "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_mso.png"
-        },
-        {
-            "name": "Veined White",
-            "code": "BV",
-            "material": "MDF",
-            "finish": "PET",
-            "image": "door_bv.png"
-        },
-        {
-            "name": "Fumed Oak",
-            "code": "CF",
-            "material": "MDF",
-            "finish": "Melamine Mélaminée",
-            "image": "door_cf.png"
+            "finish": "Melamine",
+            "category": "SLAB / FLAT DOOR STYLES",
+            "sub_category": "WOOD"
         }
     ],
     "categories": [
@@ -322,7 +240,7 @@
                     ]
                 },
                 {
-                    "name": "ONE SHELF",
+                    "name": "EASY REACH (ERB)",
                     "image": "base_cabinet_11.png",
                     "codes": [
                         "ERB33",
@@ -343,14 +261,6 @@
                     "image": "base_cabinet_14.png",
                     "codes": [
                         "MB30"
-                    ]
-                },
-                {
-                    "name": "MICROWAVE WALL PANEL",
-                    "image": "base_cabinet_15.png",
-                    "codes": [
-                        "M24-PNL",
-                        "M30-PNL"
                     ]
                 }
             ]
@@ -731,7 +641,16 @@
         },
         {
             "name": "Accessories",
-            "products": []
+            "products": [
+                {
+                    "name": "MICROWAVE WALL PANEL",
+                    "image": "base_cabinet_15.png",
+                    "codes": [
+                        "M24-PNL",
+                        "M30-PNL"
+                    ]
+                }
+            ]
         }
     ]
 }
